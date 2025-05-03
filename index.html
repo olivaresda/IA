@@ -1,123 +1,2278 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Implementación Exitosa de IA Generativa</title>
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet"/>
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Google Sans', 'Roboto', sans-serif;
-      background-color: #f8f9fa;
-    }
-
-    .slide-container {
-      width: 1280px;
-      min-height: 720px;
-      margin: 40px auto;
-      position: relative;
-      overflow: hidden;
-      background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-      opacity: 0;
-      transform: scale(0.95);
-      transition: all 0.5s ease-in-out;
-    }
-
-    .slide-container.active {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    .gradient-bar {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 8px;
-      background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
-    }
-
-    .slide-number {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      font-size: 14px;
-      color: #5f6368;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementación Exitosa de IA Generativa: 601 Casos Reales</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            line-height: 1.2;
+        }
+        .subtitle {
+            font-size: 2rem;
+            font-weight: 500;
+            color: #5f6368;
+            line-height: 1.3;
+        }
+        .author {
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: #5f6368;
+        }
+        .ai-icon {
+            font-size: 1.5rem;
+            color: #1a73e8;
+            margin-right: 10px;
+        }
+        .accent {
+            color: #1a73e8;
+            font-weight: 500;
+        }
+        .date {
+            color: #5f6368;
+            font-size: 1.2rem;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col justify-center items-center h-full text-center px-24 py-16">
+            <div class="mb-8">
+                <i class="fas fa-brain ai-icon text-6xl mb-6"></i> 
+                <i class="fas fa-robot ai-icon text-6xl mb-6 ml-4"></i>
+            </div>
+            
+            <h1 class="title mb-6">Implementación Exitosa de<br>IA Generativa</h1>
+            
+            <h2 class="subtitle mb-10">Análisis de <span class="accent">601 casos reales</span> de organizaciones líderes mundiales</h2>
+            
+            <div class="author mb-16">
+                Presentado por: <span class="accent">Tu Nombre</span><br>
+                <span class="text-lg">Especialista en Implementación de Inteligencia Artificial</span>
+            </div>
+            
+            <p class="date mt-8">Abril 2024</p>
+        </div>
+        
+        <div class="slide-number">1/10</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Panorama Actual de la IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+        }
+        .chart-container {
+            height: 300px;
+            width: 100%;
+        }
+        .accent {
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">El Panorama Actual de la IA Generativa</h2>
+            
+            <div class="grid grid-cols-2 gap-8 mb-8">
+                <div class="col-span-2">
+                    <p class="text-xl text-gray-700 mb-6">
+                        De solo <span class="accent font-medium">101 casos de uso</span> documentados hace un año a 
+                        <span class="accent font-medium">601 implementaciones reales</span> hoy: la IA generativa ha 
+                        experimentado un crecimiento explosivo en adopción corporativa.
+                    </p>
+                </div>
+                
+                <div class="stat-card p-6 flex flex-col items-center">
+                    <i class="fas fa-rocket text-4xl text-blue-500 mb-4"></i>
+                    <div class="stat-number">86%</div>
+                    <p class="text-lg text-gray-700 text-center mt-2">
+                        de las organizaciones están implementando o planean implementar IA generativa en sus procesos
+                    </p>
+                </div>
+                
+                <div class="stat-card p-6 flex flex-col items-center">
+                    <i class="fas fa-chart-line text-4xl text-green-500 mb-4"></i>
+                    <div class="stat-number">70%</div>
+                    <p class="text-lg text-gray-700 text-center mt-2">
+                        de mejora en productividad reportada por equipos que utilizan herramientas de IA generativa
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-4 mb-6">
+                <h3 class="text-xl font-medium text-gray-800 mb-4">Crecimiento de Implementaciones de IA Generativa</h3>
+                <div class="chart-container">
+                    <canvas id="adoptionChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">2/10</div>
+    </div>
 
-<!-- Todas tus láminas van aquí (sin modificarlas) -->
-<!-- Puedes copiar directamente todas tus 10 láminas del archivo que proporcionaste -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('adoptionChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Q1 2023', 'Q2 2023', 'Q3 2023', 'Q4 2023', 'Q1 2024', 'Q2 2024'],
+                    datasets: [{
+                        label: 'Casos de uso documentados',
+                        data: [101, 185, 270, 352, 480, 601],
+                        backgroundColor: 'rgba(26, 115, 232, 0.1)',
+                        borderColor: '#1a73e8',
+                        borderWidth: 3,
+                        pointBackgroundColor: '#1a73e8',
+                        pointRadius: 5,
+                        tension: 0.3,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principales Sectores y Casos de Uso - IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .use-case-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .use-case-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .chart-container {
+            height: 320px;
+            width: 100%;
+        }
+        .industry-icon {
+            font-size: 2rem;
+            color: #1a73e8;
+            margin-bottom: 0.5rem;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #202124;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Principales Sectores y Casos de Uso</h2>
+            
+            <div class="flex space-x-8 mb-8">
+                <div class="w-1/2">
+                    <div class="chart-container">
+                        <canvas id="industriesChart"></canvas>
+                    </div>
+                    <p class="text-center text-sm text-gray-600 mt-2">Distribución de casos de uso por sector</p>
+                </div>
+                
+                <div class="w-1/2">
+                    <p class="text-lg text-gray-700 mb-4">
+                        La IA generativa está transformando organizaciones en múltiples sectores, con implementaciones que abarcan desde la automatización de procesos hasta la generación de insights estratégicos.
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        Cada sector aprovecha la tecnología de manera única, adaptándola a necesidades específicas y creando valor diferencial en sus operaciones diarias.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-6 mt-4">
+                <div class="use-case-card p-5 flex flex-col items-center text-center">
+                    <i class="fas fa-hospital industry-icon"></i>
+                    <h3 class="card-title">Salud</h3>
+                    <p class="text-sm text-gray-600">Diagnóstico asistido, análisis de imágenes médicas, personalización de tratamientos</p>
+                </div>
+                
+                <div class="use-case-card p-5 flex flex-col items-center text-center">
+                    <i class="fas fa-chart-line industry-icon"></i>
+                    <h3 class="card-title">Servicios Financieros</h3>
+                    <p class="text-sm text-gray-600">Detección de fraude, asesoramiento automático, análisis de riesgos</p>
+                </div>
+                
+                <div class="use-case-card p-5 flex flex-col items-center text-center">
+                    <i class="fas fa-shopping-cart industry-icon"></i>
+                    <h3 class="card-title">Retail</h3>
+                    <p class="text-sm text-gray-600">Personalización, asistentes virtuales, optimización de inventario</p>
+                </div>
+                
+                <div class="use-case-card p-5 flex flex-col items-center text-center">
+                    <i class="fas fa-industry industry-icon"></i>
+                    <h3 class="card-title">Manufactura</h3>
+                    <p class="text-sm text-gray-600">Mantenimiento predictivo, optimización de cadena de suministro, control de calidad</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">3/10</div>
+    </div>
 
-<!-- Ejemplo: Incluye todas tus láminas una tras otra sin cambios -->
-<div id="slides">
-  <!-- Lámina 1 -->
-  <div class="slide-container active"> ... Tu contenido de la lámina 1 ... </div>
-  <!-- Lámina 2 -->
-  <div class="slide-container"> ... Tu contenido de la lámina 2 ... </div>
-  <!-- Más láminas hasta la 10 -->
-</div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('industriesChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Tecnología', 'Servicios Financieros', 'Salud', 'Retail', 'Manufactura', 'Otros'],
+                    datasets: [{
+                        data: [22, 18, 15, 14, 12, 19],
+                        backgroundColor: [
+                            '#4285f4', // Google Blue
+                            '#34a853', // Google Green
+                            '#fbbc05', // Google Yellow
+                            '#ea4335', // Google Red
+                            '#5f6368', // Google Grey
+                            '#dadce0'  // Light Grey
+                        ],
+                        borderColor: 'white',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                padding: 15,
+                                font: {
+                                    family: 'Google Sans',
+                                    size: 14
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `${context.label}: ${context.raw}%`;
+                                }
+                            }
+                        }
+                    },
+                    cutout: '60%'
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casos de Éxito Destacados - IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .case-study-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .case-study-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .card-header {
+            padding: 1.25rem;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e8eaed;
+        }
+        .card-body {
+            padding: 1.25rem;
+            flex: 1;
+        }
+        .card-footer {
+            background-color: #f8f9fa;
+            padding: 0.75rem 1.25rem;
+            border-top: 1px solid #e8eaed;
+        }
+        .company-logo {
+            width: 40px;
+            height: 40px;
+            background-color: #e8eaed;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #202124;
+        }
+        .result-pill {
+            background: linear-gradient(90deg, #4285f4, #34a853);
+            color: white;
+            font-weight: 500;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .industry-badge {
+            background-color: #e8eaed;
+            color: #5f6368;
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Casos de Éxito Destacados</h2>
+            
+            <div class="grid grid-cols-2 gap-8 mb-10">
+                <div class="case-study-card">
+                    <div class="card-header flex items-center">
+                        <div class="company-logo">
+                            <i class="fas fa-shopping-bag text-blue-500"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Retailer Global</h3>
+                            <div class="flex mt-1">
+                                <span class="industry-badge">Retail</span>
+                                <span class="industry-badge">E-commerce</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-gray-700 mb-4">Implementó IA generativa para personalizar recomendaciones de productos y crear descripciones automáticas para millones de artículos en su catálogo.</p>
+                        
+                        <ul class="pl-5 mb-4">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Redujo en un 85% el tiempo necesario para crear descripciones de productos</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Aumentó la tasa de conversión en un 23% gracias a recomendaciones personalizadas</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="result-pill">ROI: 310% en 6 meses</span>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="card-header flex items-center">
+                        <div class="company-logo">
+                            <i class="fas fa-hospital text-red-500"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Centro Médico Internacional</h3>
+                            <div class="flex mt-1">
+                                <span class="industry-badge">Salud</span>
+                                <span class="industry-badge">Investigación</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-gray-700 mb-4">Utilizó IA generativa para analizar miles de historiales médicos y estudios clínicos, identificando patrones para diagnósticos tempranos.</p>
+                        
+                        <ul class="pl-5 mb-4">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Mejoró la detección temprana de condiciones específicas en un 47%</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Redujo el tiempo de investigación clínica en 4 meses</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="result-pill">Impacto: 12,000 pacientes beneficiados</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8">
+                <div class="case-study-card">
+                    <div class="card-header flex items-center">
+                        <div class="company-logo">
+                            <i class="fas fa-landmark text-yellow-500"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Banco Líder</h3>
+                            <div class="flex mt-1">
+                                <span class="industry-badge">Finanzas</span>
+                                <span class="industry-badge">Banca</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-gray-700 mb-4">Implementó asistentes virtuales basados en IA generativa para atención al cliente y detección avanzada de fraudes.</p>
+                        
+                        <ul class="pl-5 mb-4">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Automatizó el 78% de las consultas básicas de clientes</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Mejoró la detección de fraudes en un 34%</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="result-pill">Ahorro anual: $4.2 millones</span>
+                    </div>
+                </div>
+                
+                <div class="case-study-card">
+                    <div class="card-header flex items-center">
+                        <div class="company-logo">
+                            <i class="fas fa-industry text-green-500"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Manufacturer Tech</h3>
+                            <div class="flex mt-1">
+                                <span class="industry-badge">Manufactura</span>
+                                <span class="industry-badge">Logística</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-gray-700 mb-4">Implementó IA generativa para optimizar la cadena de suministro y predecir fallos en equipos de producción.</p>
+                        
+                        <ul class="pl-5 mb-4">
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Redujo el tiempo de inactividad no planificado en un 37%</span>
+                            </li>
+                            <li class="mb-2 flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                <span>Optimizó inventario reduciendo costos logísticos en 22%</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="result-pill">Eficiencia operativa: +28%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">4/10</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficios Medibles y ROI de la IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .metric-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .metric-value {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .chart-container {
+            height: 280px;
+            width: 100%;
+        }
+        .accent {
+            color: #1a73e8;
+        }
+        .highlight {
+            background: linear-gradient(90deg, rgba(66, 133, 244, 0.1) 0%, rgba(52, 168, 83, 0.1) 100%);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            border-left: 3px solid #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Beneficios Medibles y ROI de la IA Generativa</h2>
+            
+            <div class="grid grid-cols-12 gap-6">
+                <div class="col-span-7">
+                    <div class="chart-container mb-6">
+                        <canvas id="benefitsChart"></canvas>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Mejora porcentual promedio por área funcional</h3>
+                        <p class="text-gray-700">Basado en el análisis de los 601 casos de implementación de IA generativa, las organizaciones experimentan mejoras significativas en múltiples dimensiones del negocio, con un impacto particularmente destacado en productividad y servicio al cliente.</p>
+                    </div>
+                </div>
+                
+                <div class="col-span-5">
+                    <div class="grid grid-cols-1 gap-5">
+                        <div class="metric-card p-5">
+                            <div class="text-gray-600 text-sm uppercase font-medium">Tiempo de recuperación de inversión</div>
+                            <div class="metric-value text-blue-600">9.3 meses</div>
+                            <p class="text-gray-700 text-sm">Promedio para implementaciones empresariales de IA generativa</p>
+                        </div>
+                        
+                        <div class="metric-card p-5">
+                            <div class="text-gray-600 text-sm uppercase font-medium">ROI promedio</div>
+                            <div class="metric-value text-green-600">287%</div>
+                            <p class="text-gray-700 text-sm">Medido en periodo de 18 meses post-implementación</p>
+                        </div>
+                        
+                        <div class="p-5 bg-blue-50 rounded-lg border border-blue-100">
+                            <h3 class="font-semibold text-lg mb-3 text-gray-800">Factores de éxito clave</h3>
+                            <ul class="space-y-2 text-gray-700">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                    <span>Integración con flujos de trabajo existentes</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                    <span>Capacitación adecuada del personal</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                    <span>Enfoque en casos de uso con alto impacto</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                                    <span>Supervisión humana en procesos críticos</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-6">
+                <div class="highlight p-4">
+                    <p class="text-lg text-gray-800">
+                        <span class="font-medium">Dato clave:</span> Las organizaciones que implementaron IA generativa de manera estratégica reportaron una <span class="accent font-semibold">reducción del 42% en costos operativos</span> y un <span class="accent font-semibold">aumento del 35% en satisfacción del cliente</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">5/10</div>
+    </div>
 
-<script>
-  const slides = document.querySelectorAll('.slide-container');
-  let currentSlide = 0;
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('benefitsChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Productividad', 'Servicio al cliente', 'Innovación', 'Reducción de costos', 'Velocidad de mercado', 'Calidad'],
+                    datasets: [{
+                        label: 'Mejora porcentual',
+                        data: [72, 65, 58, 47, 43, 38],
+                        backgroundColor: [
+                            '#4285f4', // Google Blue
+                            '#34a853', // Google Green
+                            '#fbbc05', // Google Yellow
+                            '#ea4335', // Google Red
+                            '#5f6368', // Google Grey
+                            '#185abc'  // Dark Blue
+                        ],
+                        borderColor: 'white',
+                        borderWidth: 2,
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `Mejora: ${context.raw}%`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claves para la Implementación Exitosa de IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .step-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+        .step-indicator {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 8px;
+            height: 100%;
+        }
+        .step-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .step-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #202124;
+            margin-bottom: 0.75rem;
+        }
+        .blue-accent {
+            background-color: #4285f4;
+        }
+        .green-accent {
+            background-color: #34a853;
+        }
+        .yellow-accent {
+            background-color: #fbbc05;
+        }
+        .red-accent {
+            background-color: #ea4335;
+        }
+        .framework-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e8eaed;
+            border-radius: 12px;
+            padding: 1.5rem;
+        }
+        .accent {
+            color: #1a73e8;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Claves para la Implementación Exitosa de IA Generativa</h2>
+            
+            <div class="flex mb-8">
+                <div class="framework-box w-full">
+                    <p class="text-lg text-gray-700 mb-3">
+                        Del análisis de los <span class="accent">601 casos de implementación exitosa</span>, emerge un marco de trabajo estructurado en 4 fases que maximiza el valor de la IA generativa y minimiza riesgos.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-4 gap-6 mb-8">
+                <div class="step-card p-6">
+                    <div class="step-indicator blue-accent"></div>
+                    <div class="text-center">
+                        <div class="step-icon text-blue-500">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="step-title">1. Descubrimiento</h3>
+                        <ul class="text-left text-gray-700 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Identificar casos de uso de alto impacto</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Evaluar preparación organizacional</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-blue-500 mr-2 mt-1"></i>
+                                <span>Definir objetivos y métricas de éxito</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-card p-6">
+                    <div class="step-indicator green-accent"></div>
+                    <div class="text-center">
+                        <div class="step-icon text-green-500">
+                            <i class="fas fa-sitemap"></i>
+                        </div>
+                        <h3 class="step-title">2. Diseño y Planificación</h3>
+                        <ul class="text-left text-gray-700 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                <span>Seleccionar modelos y arquitectura</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                <span>Establecer protocolos de seguridad/ética</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                                <span>Crear plan de gobernanza de datos</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-card p-6">
+                    <div class="step-indicator yellow-accent"></div>
+                    <div class="text-center">
+                        <div class="step-icon text-yellow-500">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="step-title">3. Implementación</h3>
+                        <ul class="text-left text-gray-700 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-yellow-600 mr-2 mt-1"></i>
+                                <span>Desarrollar MVP e iteraciones rápidas</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-yellow-600 mr-2 mt-1"></i>
+                                <span>Integrar con sistemas existentes</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-yellow-600 mr-2 mt-1"></i>
+                                <span>Capacitar al personal y usuarios clave</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step-card p-6">
+                    <div class="step-indicator red-accent"></div>
+                    <div class="text-center">
+                        <div class="step-icon text-red-500">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="step-title">4. Optimización</h3>
+                        <ul class="text-left text-gray-700 space-y-2">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-red-500 mr-2 mt-1"></i>
+                                <span>Monitorizar métricas de rendimiento</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-red-500 mr-2 mt-1"></i>
+                                <span>Recopilar feedback y mejorar modelos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-red-500 mr-2 mt-1"></i>
+                                <span>Escalar soluciones exitosas</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Factores críticos de éxito</h3>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-start">
+                            <div class="rounded-full bg-blue-100 p-2 mr-3">
+                                <i class="fas fa-users text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Enfoque en las personas</h4>
+                                <p class="text-sm text-gray-600">La capacitación y gestión del cambio son tan importantes como la tecnología</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="rounded-full bg-green-100 p-2 mr-3">
+                                <i class="fas fa-shield-alt text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Seguridad y Confianza</h4>
+                                <p class="text-sm text-gray-600">Implementar controles robustos de seguridad y privacidad de datos</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="rounded-full bg-yellow-100 p-2 mr-3">
+                                <i class="fas fa-cogs text-yellow-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Integración técnica</h4>
+                                <p class="text-sm text-gray-600">Asegurar compatibilidad con infraestructura existente</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="rounded-full bg-red-100 p-2 mr-3">
+                                <i class="fas fa-bullseye text-red-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-medium text-gray-900">Objetivos alineados</h4>
+                                <p class="text-sm text-gray-600">Vincular cada iniciativa a objetivos estratégicos claros</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Lecciones aprendidas de implementadores</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-lightbulb text-yellow-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">"<span class="italic">Comenzar con proyectos pequeños y de alto impacto genera impulso y apoyo organizacional</span>" - Director de Innovación, Retail</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-lightbulb text-yellow-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">"<span class="italic">La supervisión humana sigue siendo crítica; la IA generativa es un potenciador, no un reemplazo</span>" - CTO, Servicios Financieros</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-lightbulb text-yellow-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">"<span class="italic">La transparencia en el proceso y la explicabilidad de los resultados son fundamentales para la adopción</span>" - CDO, Salud</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">6/10</div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafíos y Soluciones en la Implementación de IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .challenge-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #ea4335;
+        }
+        .solution-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #34a853;
+        }
+        .challenge-card:hover, .solution-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+        .challenge-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ea4335;
+            margin-bottom: 0.5rem;
+        }
+        .solution-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #34a853;
+            margin-bottom: 0.5rem;
+        }
+        .chart-container {
+            height: 240px;
+            width: 100%;
+        }
+        .insight-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e8eaed;
+            border-radius: 12px;
+            padding: 1rem;
+        }
+        .accent-text {
+            color: #1a73e8;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Desafíos y Soluciones en la Implementación de IA Generativa</h2>
+            
+            <div class="flex space-x-6 mb-6">
+                <div class="w-1/2">
+                    <div class="chart-container mb-4">
+                        <canvas id="challengesChart"></canvas>
+                    </div>
+                    
+                    <div class="insight-box">
+                        <p class="text-gray-800">
+                            <i class="fas fa-quote-left text-blue-400 opacity-50 mr-2"></i>
+                            El <span class="accent-text">68%</span> de las organizaciones experimentan algún tipo de desafío técnico o cultural durante sus implementaciones de IA generativa. La clave está en anticipar estos obstáculos y planificar estrategias de mitigación.
+                            <i class="fas fa-quote-right text-blue-400 opacity-50 ml-2"></i>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="w-1/2">
+                    <p class="text-lg text-gray-700 mb-4">
+                        El análisis de los 601 casos de uso revela patrones claros de obstáculos comunes y estrategias eficaces para superarlos. Las organizaciones más exitosas abordan proactivamente estos desafíos.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-red-50 rounded-md p-3">
+                            <h4 class="font-medium text-red-700">Mayor desafío técnico:</h4>
+                            <p class="text-sm text-gray-700">Integración con sistemas heredados</p>
+                        </div>
+                        
+                        <div class="bg-yellow-50 rounded-md p-3">
+                            <h4 class="font-medium text-yellow-700">Mayor desafío organizacional:</h4>
+                            <p class="text-sm text-gray-700">Resistencia al cambio</p>
+                        </div>
+                        
+                        <div class="bg-blue-50 rounded-md p-3">
+                            <h4 class="font-medium text-blue-700">Mejor práctica de adopción:</h4>
+                            <p class="text-sm text-gray-700">Programas piloto con objetivos claros</p>
+                        </div>
+                        
+                        <div class="bg-green-50 rounded-md p-3">
+                            <h4 class="font-medium text-green-700">Factor de éxito crítico:</h4>
+                            <p class="text-sm text-gray-700">Capacitación integral del personal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-2 gap-6 mt-2">
+                <div class="challenge-card p-5">
+                    <h3 class="challenge-title flex items-center">
+                        <i class="fas fa-exclamation-triangle mr-2"></i> 
+                        Principales Desafíos
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Calidad y preparación de datos</span>
+                                <p class="text-sm text-gray-600">Datos fragmentados, inconsistentes o sesgados que limitan la eficacia de los modelos</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Falta de talento especializado</span>
+                                <p class="text-sm text-gray-600">Escasez de profesionales con experiencia en implementación de IA generativa</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-times-circle text-red-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Preocupaciones éticas y regulatorias</span>
+                                <p class="text-sm text-gray-600">Inquietudes sobre privacidad, propiedad intelectual y cumplimiento normativo</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="solution-card p-5">
+                    <h3 class="solution-title flex items-center">
+                        <i class="fas fa-lightbulb mr-2"></i> 
+                        Soluciones Efectivas
+                    </h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Estrategia de datos robusta</span>
+                                <p class="text-sm text-gray-600">Implementar procesos de gobernanza y preparación de datos antes del despliegue de modelos</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Formación y adquisición de talento</span>
+                                <p class="text-sm text-gray-600">Desarrollar programas internos de capacitación y colaborar con socios especializados</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-2 mt-1"></i>
+                            <div>
+                                <span class="font-medium">Marco ético y de gobernanza</span>
+                                <p class="text-sm text-gray-600">Establecer directrices claras sobre uso responsable y mecanismos de supervisión</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">7/10</div>
+    </div>
 
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.remove('active');
-    });
-    slides[index].classList.add('active');
-  }
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('challengesChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Calidad de datos', 'Talento especializado', 'Preocupaciones éticas', 'Integración sistemas', 'Resistencia al cambio', 'ROI incierto'],
+                    datasets: [{
+                        label: 'Porcentaje de organizaciones que enfrentan este desafío',
+                        data: [78, 65, 62, 58, 53, 47],
+                        backgroundColor: [
+                            '#ea4335', // Google Red
+                            '#fbbc05', // Google Yellow
+                            '#4285f4', // Google Blue
+                            '#34a853', // Google Green
+                            '#5f6368', // Google Grey
+                            '#185abc'  // Dark Blue
+                        ],
+                        borderColor: 'white',
+                        borderWidth: 2,
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `${context.raw}% de organizaciones`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo Seleccionar la Solución de IA Generativa Adecuada</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .decision-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+        .decision-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .chart-container {
+            height: 220px;
+            width: 100%;
+        }
+        .model-comparison td, .model-comparison th {
+            padding: 0.5rem;
+            text-align: center;
+        }
+        .model-comparison th {
+            background-color: #f1f3f4;
+            font-weight: 500;
+        }
+        .model-comparison tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .feature-icon {
+            color: #1a73e8;
+            font-size: 1.6rem;
+            margin-bottom: 0.5rem;
+        }
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background-color: #1a73e8;
+            color: white;
+            font-weight: 500;
+            margin-right: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Cómo Seleccionar la Solución de IA Generativa Adecuada</h2>
+            
+            <div class="grid grid-cols-2 gap-8 mb-6">
+                <div>
+                    <div class="chart-container mb-4">
+                        <canvas id="selectionFactorsChart"></canvas>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-5 rounded-lg border border-blue-100">
+                        <h3 class="font-semibold text-lg mb-2 text-gray-800">Proceso de selección en 3 pasos</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <div class="step-number">1</div>
+                                <span><span class="font-medium">Evaluar necesidades</span>: Identificar casos de uso específicos y requisitos técnicos</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="step-number">2</div>
+                                <span><span class="font-medium">Comparar soluciones</span>: Evaluar opciones según capacidades, integración y costo</span>
+                            </li>
+                            <li class="flex items-start">
+                                <div class="step-number">3</div>
+                                <span><span class="font-medium">Validar con pruebas</span>: Implementar pilotos para confirmar rendimiento real</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col">
+                    <div class="bg-white p-5 rounded-lg shadow-md mb-6">
+                        <h3 class="font-semibold text-lg mb-3 text-gray-800">Comparativa de enfoque por tamaño de organización</h3>
+                        <table class="w-full model-comparison">
+                            <thead>
+                                <tr>
+                                    <th>Tipo de organización</th>
+                                    <th>Enfoque recomendado</th>
+                                    <th>Consideraciones clave</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-medium">Gran empresa</td>
+                                    <td>Soluciones empresariales + modelos personalizados</td>
+                                    <td>Seguridad, escalabilidad, integración</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-medium">Mediana empresa</td>
+                                    <td>APIs y servicios gestionados</td>
+                                    <td>Costo-beneficio, rapidez implementación</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-medium">Pequeña empresa</td>
+                                    <td>Soluciones SaaS especializadas</td>
+                                    <td>Facilidad de uso, bajo costo inicial</td>
+                                </tr>
+                                <tr>
+                                    <td class="font-medium">Startup</td>
+                                    <td>APIs públicas + open source</td>
+                                    <td>Flexibilidad, experimentación rápida</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="decision-card p-4 flex flex-col items-center text-center">
+                            <i class="fas fa-cloud feature-icon"></i>
+                            <h4 class="font-medium text-gray-800 mb-1">Soluciones Cloud vs On-premise</h4>
+                            <p class="text-sm text-gray-600">El 76% de implementaciones exitosas utilizan modelos cloud por mayor flexibilidad y menor TCO</p>
+                        </div>
+                        
+                        <div class="decision-card p-4 flex flex-col items-center text-center">
+                            <i class="fas fa-project-diagram feature-icon"></i>
+                            <h4 class="font-medium text-gray-800 mb-1">Modelos generalistas vs específicos</h4>
+                            <p class="text-sm text-gray-600">Los modelos de dominio específico superan a los generalistas en nichos especializados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="font-semibold text-lg mb-3 text-gray-800">Factores críticos de decisión según análisis de 601 casos</h3>
+                <div class="grid grid-cols-5 gap-4">
+                    <div class="flex items-start">
+                        <div class="rounded-full bg-blue-100 p-2 mr-2 flex-shrink-0">
+                            <i class="fas fa-shield-alt text-blue-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900 text-sm">Seguridad y privacidad</h4>
+                            <p class="text-xs text-gray-600">Verificar cumplimiento normativo y protección de datos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="rounded-full bg-green-100 p-2 mr-2 flex-shrink-0">
+                            <i class="fas fa-plug text-green-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900 text-sm">Integración</h4>
+                            <p class="text-xs text-gray-600">Compatibilidad con infraestructura existente</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="rounded-full bg-yellow-100 p-2 mr-2 flex-shrink-0">
+                            <i class="fas fa-dollar-sign text-yellow-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900 text-sm">Costo total</h4>
+                            <p class="text-xs text-gray-600">Considerar licencias, infraestructura y mantenimiento</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="rounded-full bg-red-100 p-2 mr-2 flex-shrink-0">
+                            <i class="fas fa-tachometer-alt text-red-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900 text-sm">Rendimiento</h4>
+                            <p class="text-xs text-gray-600">Velocidad y precisión para casos de uso específicos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-start">
+                        <div class="rounded-full bg-purple-100 p-2 mr-2 flex-shrink-0">
+                            <i class="fas fa-expand-arrows-alt text-purple-600"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-medium text-gray-900 text-sm">Escalabilidad</h4>
+                            <p class="text-xs text-gray-600">Capacidad de crecimiento sin afectar rendimiento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">8/10</div>
+    </div>
 
-  function nextSlide() {
-    if (currentSlide < slides.length - 1) {
-      currentSlide++;
-      showSlide(currentSlide);
-    }
-  }
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('selectionFactorsChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: ['Seguridad', 'Integración', 'Costo', 'Rendimiento', 'Escalabilidad', 'Facilidad de uso'],
+                    datasets: [
+                        {
+                            label: 'Grandes empresas',
+                            data: [90, 85, 60, 75, 90, 65],
+                            backgroundColor: 'rgba(66, 133, 244, 0.2)',
+                            borderColor: '#4285f4',
+                            pointBackgroundColor: '#4285f4',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: '#4285f4'
+                        },
+                        {
+                            label: 'Pymes',
+                            data: [70, 60, 90, 65, 60, 85],
+                            backgroundColor: 'rgba(52, 168, 83, 0.2)',
+                            borderColor: '#34a853',
+                            pointBackgroundColor: '#34a853',
+                            pointBorderColor: '#fff',
+                            pointHoverBackgroundColor: '#fff',
+                            pointHoverBorderColor: '#34a853'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    elements: {
+                        line: {
+                            borderWidth: 3
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `${context.dataset.label}: ${context.raw}/100`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        r: {
+                            angleLines: {
+                                display: true,
+                                color: 'rgba(0, 0, 0, 0.1)'
+                            },
+                            suggestedMin: 0,
+                            suggestedMax: 100,
+                            ticks: {
+                                backdropColor: 'transparent',
+                                showLabelBackdrop: false
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendencias Futuras en IA Generativa</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .trend-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .trend-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .timeline-container {
+            position: relative;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background: #e0e0e0;
+        }
+        .timeline-point {
+            position: absolute;
+            left: 11px;
+            top: 6px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .now {
+            background-color: #4285f4;
+        }
+        .near {
+            background-color: #34a853;
+        }
+        .mid {
+            background-color: #fbbc05;
+        }
+        .far {
+            background-color: #ea4335;
+        }
+        .chart-container {
+            height: 250px;
+            width: 100%;
+        }
+        .trend-icon {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <h2 class="section-title">Tendencias Futuras en IA Generativa</h2>
+            
+            <div class="grid grid-cols-12 gap-8 mb-8">
+                <div class="col-span-5">
+                    <div class="chart-container mb-6">
+                        <canvas id="adoptionTrendsChart"></canvas>
+                    </div>
+                    
+                    <div class="bg-blue-50 p-5 rounded-lg">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Roadmap para organizaciones</h3>
+                        
+                        <div class="timeline-container mt-4">
+                            <div class="timeline-point now"></div>
+                            <p class="mb-1 font-medium text-blue-600">Ahora</p>
+                            <p class="text-sm text-gray-700 mb-3">Identificación de casos de uso de alto valor y primeras implementaciones en áreas críticas</p>
+                        </div>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-point near"></div>
+                            <p class="mb-1 font-medium text-green-600">6-12 meses</p>
+                            <p class="text-sm text-gray-700 mb-3">Integración profunda con sistemas existentes y escalado de modelos específicos por dominio</p>
+                        </div>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-point mid"></div>
+                            <p class="mb-1 font-medium text-yellow-600">1-3 años</p>
+                            <p class="text-sm text-gray-700 mb-3">Transformación organizacional con IA generativa como capacidad central del negocio</p>
+                        </div>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-point far"></div>
+                            <p class="mb-1 font-medium text-red-600">3-5 años</p>
+                            <p class="text-sm text-gray-700">Ecosistemas inteligentes y autónomos con IA generativa en ciclos completos de innovación</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-span-7">
+                    <div class="grid grid-cols-2 gap-6 mb-6">
+                        <div class="trend-card p-5 flex flex-col items-center text-center">
+                            <i class="fas fa-brain trend-icon text-blue-500"></i>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">IA multimodal avanzada</h3>
+                            <p class="text-sm text-gray-600">Los modelos integrarán múltiples tipos de datos (texto, imagen, audio, video) para generar respuestas más completas y contextuales</p>
+                        </div>
+                        
+                        <div class="trend-card p-5 flex flex-col items-center text-center">
+                            <i class="fas fa-microchip trend-icon text-green-500"></i>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">IA específica de dominio</h3>
+                            <p class="text-sm text-gray-600">Proliferación de modelos altamente especializados para industrias verticales con conocimiento experto incorporado</p>
+                        </div>
+                        
+                        <div class="trend-card p-5 flex flex-col items-center text-center">
+                            <i class="fas fa-lock trend-icon text-yellow-500"></i>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">Privacidad por diseño</h3>
+                            <p class="text-sm text-gray-600">Nuevas técnicas como computación federada y privacidad diferencial integradas en los modelos generativos</p>
+                        </div>
+                        
+                        <div class="trend-card p-5 flex flex-col items-center text-center">
+                            <i class="fas fa-users-cog trend-icon text-red-500"></i>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">Human-AI Collaboration</h3>
+                            <p class="text-sm text-gray-600">Interfaces avanzadas que permitirán colaboración fluida entre humanos y sistemas de IA generativa</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Impacto organizacional proyectado</h3>
+                        <p class="text-gray-700 mb-4">Según nuestro análisis de los 601 casos de uso y tendencias actuales, proyectamos las siguientes transformaciones:</p>
+                        
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="bg-blue-50 rounded-lg p-3 text-center">
+                                <span class="text-2xl font-bold text-blue-700">85%</span>
+                                <p class="text-xs text-gray-700 mt-1">de las empresas tendrán roles dedicados a IA generativa para 2026</p>
+                            </div>
+                            
+                            <div class="bg-green-50 rounded-lg p-3 text-center">
+                                <span class="text-2xl font-bold text-green-700">40%</span>
+                                <p class="text-xs text-gray-700 mt-1">de reducción en tiempo de desarrollo de nuevos productos y servicios</p>
+                            </div>
+                            
+                            <div class="bg-yellow-50 rounded-lg p-3 text-center">
+                                <span class="text-2xl font-bold text-yellow-700">3x</span>
+                                <p class="text-xs text-gray-700 mt-1">mayor capacidad de procesamiento de datos convertidos en insights accionables</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 p-5 rounded-lg border border-gray-200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">Recomendación para prepararse para el futuro de la IA generativa</h3>
+                
+                <div class="grid grid-cols-4 gap-4 text-center">
+                    <div class="p-3">
+                        <div class="rounded-full bg-blue-100 w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-user-cog text-blue-600"></i>
+                        </div>
+                        <h4 class="font-medium text-gray-900 text-sm">Desarrollar talento</h4>
+                        <p class="text-xs text-gray-600">Invertir en capacitación continua y adquisición de talento especializado</p>
+                    </div>
+                    
+                    <div class="p-3">
+                        <div class="rounded-full bg-green-100 w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-database text-green-600"></i>
+                        </div>
+                        <h4 class="font-medium text-gray-900 text-sm">Estrategia de datos</h4>
+                        <p class="text-xs text-gray-600">Fortalecer infraestructura y gobernanza de datos para futuros modelos</p>
+                    </div>
+                    
+                    <div class="p-3">
+                        <div class="rounded-full bg-yellow-100 w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-tasks text-yellow-600"></i>
+                        </div>
+                        <h4 class="font-medium text-gray-900 text-sm">Experimentación iterativa</h4>
+                        <p class="text-xs text-gray-600">Crear programa continuo de experimentación con nuevas capacidades</p>
+                    </div>
+                    
+                    <div class="p-3">
+                        <div class="rounded-full bg-red-100 w-12 h-12 flex items-center justify-center mx-auto mb-3">
+                            <i class="fas fa-hand-holding-usd text-red-600"></i>
+                        </div>
+                        <h4 class="font-medium text-gray-900 text-sm">Presupuesto dedicado</h4>
+                        <p class="text-xs text-gray-600">Asignar recursos específicos para innovación en IA generativa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">9/10</div>
+    </div>
 
-  function prevSlide() {
-    if (currentSlide > 0) {
-      currentSlide--;
-      showSlide(currentSlide);
-    }
-  }
-
-  // Navegación por teclado
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') nextSlide();
-    else if (e.key === 'ArrowLeft') prevSlide();
-  });
-
-  // Botones de navegación (opcional)
-  const nav = document.createElement('div');
-  nav.style.position = 'fixed';
-  nav.style.bottom = '20px';
-  nav.style.left = '50%';
-  nav.style.transform = 'translateX(-50%)';
-  nav.style.zIndex = '1000';
-  nav.innerHTML = `
-    <button onclick="prevSlide()" class="bg-white p-3 rounded-full shadow mr-4"><i class="fas fa-chevron-left"></i></button>
-    <button onclick="nextSlide()" class="bg-white p-3 rounded-full shadow"><i class="fas fa-chevron-right"></i></button>
-  `;
-  document.body.appendChild(nav);
-
-  // Funciones globales para botones
-  window.nextSlide = nextSlide;
-  window.prevSlide = prevSlide;
-</script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('adoptionTrendsChart').getContext('2d');
+            
+            const chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['2023', '2024', '2025', '2026', '2027', '2028'],
+                    datasets: [
+                        {
+                            label: 'Adopción enterprise',
+                            data: [35, 52, 68, 82, 90, 96],
+                            backgroundColor: 'rgba(66, 133, 244, 0.1)',
+                            borderColor: '#4285f4',
+                            borderWidth: 3,
+                            pointBackgroundColor: '#4285f4',
+                            tension: 0.3,
+                            fill: true
+                        },
+                        {
+                            label: 'Madurez tecnológica',
+                            data: [40, 55, 72, 85, 92, 96],
+                            backgroundColor: 'rgba(52, 168, 83, 0.1)',
+                            borderColor: '#34a853',
+                            borderWidth: 3,
+                            pointBackgroundColor: '#34a853',
+                            tension: 0.3,
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Proyección de adopción y madurez de IA generativa',
+                            font: {
+                                size: 14,
+                                family: 'Google Sans'
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `${context.dataset.label}: ${context.raw}%`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            },
+                            grid: {
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }
+                        },
+                        x: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conclusiones y Próximos Pasos</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Google Sans', 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .gradient-bar {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        .takeaway-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+            border-left: 4px solid #1a73e8;
+        }
+        .takeaway-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+        }
+        .contact-card {
+            background-color: #1a73e8;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(26, 115, 232, 0.25);
+        }
+        .contact-icon {
+            font-size: 1.8rem;
+            color: white;
+            margin-bottom: 0.75rem;
+        }
+        .summary-icon {
+            background: linear-gradient(135deg, #4285f4, #34a853);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2.5rem;
+        }
+        .accent-text {
+            color: #1a73e8;
+            font-weight: 500;
+        }
+        .thank-you {
+            font-size: 2.8rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            background: linear-gradient(90deg, #4285f4, #1a73e8);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 0.75rem 2rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(26, 115, 232, 0.25);
+        }
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 16px rgba(26, 115, 232, 0.35);
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container flex flex-col">
+        <div class="gradient-bar"></div>
+        
+        <div class="flex flex-col px-16 py-12 h-full">
+            <div class="text-center mb-6">
+                <h2 class="thank-you mb-2">¡Gracias!</h2>
+                <p class="text-xl text-gray-600">Implementando el futuro hoy con IA Generativa</p>
+            </div>
+            
+            <div class="flex flex-col items-center mb-8">
+                <div class="summary-icon mb-2">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 class="text-2xl font-semibold text-gray-800 mb-3">Conclusiones clave</h3>
+                
+                <div class="grid grid-cols-2 gap-6 w-full mb-6">
+                    <div class="takeaway-card p-5">
+                        <h4 class="font-medium text-lg text-gray-800 mb-2">Las implementaciones de IA generativa no son proyectos tecnológicos</h4>
+                        <p class="text-gray-600">Son <span class="accent-text">transformaciones de negocio</span> que requieren visión estratégica, cultura organizacional adecuada y enfoque centrado en resultados medibles.</p>
+                    </div>
+                    
+                    <div class="takeaway-card p-5">
+                        <h4 class="font-medium text-lg text-gray-800 mb-2">El valor real está en la integración</h4>
+                        <p class="text-gray-600">La IA generativa alcanza su máximo potencial cuando se <span class="accent-text">integra con procesos existentes</span> y se alinea con los objetivos estratégicos del negocio.</p>
+                    </div>
+                </div>
+                
+                <div class="bg-blue-50 p-5 rounded-lg border border-blue-100 w-full mb-6">
+                    <p class="text-gray-800">
+                        Los <span class="accent-text">601 casos de uso</span> demuestran que las organizaciones más exitosas han desarrollado un enfoque sistemático, comenzando con casos de uso de alto impacto, midiendo resultados y escalando progresivamente mientras construyen capacidades internas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex justify-between items-center">
+                <div class="w-1/2 pr-8">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">¿Listo para implementar IA generativa en tu organización?</h3>
+                    <p class="text-gray-600 mb-6">Inicia tu viaje de transformación con IA hoy mismo. Ofrezco consultoría personalizada para implementar soluciones de IA generativa adaptadas a tus necesidades específicas.</p>
+                    
+                    <button class="cta-button flex items-center">
+                        <i class="fas fa-calendar-check mr-2"></i>
+                        Agenda una consulta gratuita
+                    </button>
+                </div>
+                
+                <div class="w-1/2">
+                    <div class="contact-card p-6 text-white">
+                        <h3 class="text-xl font-semibold mb-4">Conectemos</h3>
+                        
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-envelope contact-icon mr-3"></i>
+                                <div>
+                                    <p class="text-sm opacity-80">Email</p>
+                                    <p class="font-medium">dolivaresm@fen.uchile.cl</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <i class="fas fa-phone-alt contact-icon mr-3"></i>
+                                <div>
+                                    <p class="text-sm opacity-80">Teléfono</p>
+                                    <p class="font-medium">+56 935706583</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <i class="fab fa-linkedin contact-icon mr-3"></i>
+                                <div>
+                                    <p class="text-sm opacity-80">LinkedIn</p>
+                                    <p class="font-medium"> linkedin.com/in/dolivares </p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <i class="fas fa-globe contact-icon mr-3"></i>
+                                <div>
+                                    <p class="text-sm opacity-80">Sitio web</p>
+                                    <p class="font-medium">tusitio.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-number">10/10</div>
+    </div>
 </body>
 </html>
