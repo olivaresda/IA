@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Implementación Exitosa de IA Generativa</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet"/>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Google Sans', 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    .slide-container {
+      width: 1280px;
+      min-height: 720px;
+      margin: 40px auto;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(135deg, #ffffff 0%, #f2f6fc 100%);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: scale(0.95);
+      transition: all 0.5s ease-in-out;
+    }
+
+    .slide-container.active {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .gradient-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(90deg, #4285f4, #34a853, #fbbc05, #ea4335);
+    }
+
+    .slide-number {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 14px;
+      color: #5f6368;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Todas tus láminas van aquí (sin modificarlas) -->
+<!-- Puedes copiar directamente todas tus 10 láminas del archivo que proporcionaste -->
+
+<!-- Ejemplo: Incluye todas tus láminas una tras otra sin cambios -->
+<div id="slides">
+  <!-- Lámina 1 -->
+  <div class="slide-container active"> ... Tu contenido de la lámina 1 ... </div>
+  <!-- Lámina 2 -->
+  <div class="slide-container"> ... Tu contenido de la lámina 2 ... </div>
+  <!-- Más láminas hasta la 10 -->
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slide-container');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+    });
+    slides[index].classList.add('active');
+  }
+
+  function nextSlide() {
+    if (currentSlide < slides.length - 1) {
+      currentSlide++;
+      showSlide(currentSlide);
+    }
+  }
+
+  function prevSlide() {
+    if (currentSlide > 0) {
+      currentSlide--;
+      showSlide(currentSlide);
+    }
+  }
+
+  // Navegación por teclado
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') nextSlide();
+    else if (e.key === 'ArrowLeft') prevSlide();
+  });
+
+  // Botones de navegación (opcional)
+  const nav = document.createElement('div');
+  nav.style.position = 'fixed';
+  nav.style.bottom = '20px';
+  nav.style.left = '50%';
+  nav.style.transform = 'translateX(-50%)';
+  nav.style.zIndex = '1000';
+  nav.innerHTML = `
+    <button onclick="prevSlide()" class="bg-white p-3 rounded-full shadow mr-4"><i class="fas fa-chevron-left"></i></button>
+    <button onclick="nextSlide()" class="bg-white p-3 rounded-full shadow"><i class="fas fa-chevron-right"></i></button>
+  `;
+  document.body.appendChild(nav);
+
+  // Funciones globales para botones
+  window.nextSlide = nextSlide;
+  window.prevSlide = prevSlide;
+</script>
+
+</body>
+</html>
